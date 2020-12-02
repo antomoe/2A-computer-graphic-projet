@@ -1,0 +1,53 @@
+newmtl aiStandardSurface1SG
+illum 4
+Ka 0.0000 0.0122 0.0000
+Kd 0.0058 0.0245 0.0000
+Ks 0.0000 0.0490 0.0000
+Tf 1.00 1.00 1.00
+Ni 0.00
+map_Kd ./white.png
+map_Bump ./white.png
+newmtl aiStandardSurface2SG
+illum 4
+Ka 0.0000 0.0122 0.0000
+Kd 0.0058 0.0245 0.0000
+Ks 0.0000 0.0490 0.0000
+Tf 1.00 1.00 1.00
+Ni 0.00
+map_Kd ./white.png
+map_Bump ./white.png
+newmtl aiStandardSurface3SG
+illum 4
+Ka 0.0000 0.0122 0.0000
+Kd 0.0058 0.0245 0.0000
+Ks 0.0000 0.0490 0.0000
+Tf 1.00 1.00 1.00
+Ni 0.00
+map_Kd ./white.png
+map_Bump ./white.png
+newmtl aiStandardSurface4SG
+illum 4
+Ka 0.0000 0.0122 0.0000
+Kd 0.0058 0.0245 0.0000
+Ks 0.0000 0.0490 0.0000
+Tf 1.00 1.00 1.00
+Ni 0.00
+map_Kd ./white.png
+map_Bump ./white.png
+newmtl aiStandardSurface5SG
+illum 4
+Ka 0.0000 0.0122 0.0000
+Kd 0.0058 0.0245 0.0000
+Ks 0.0000 0.0490 0.0000
+Tf 1.00 1.00 1.00
+Ni 0.00
+map_Kd ./white.png
+map_Bump ./white.png
+newmtl initialShadingGroup
+illum 4
+Kd 0.50 0.50 0.50
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+Ni 1.00
+map_Kd ./white.png
+map_Bump ./white.png

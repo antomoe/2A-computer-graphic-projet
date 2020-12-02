@@ -1,0 +1,773 @@
+### exported: Mon Sep  3 11:38:14 2018
+### from:     Arnold 5.2.0.0 [4fb9451c] windows icc-17.0.2 oiio-1.7.17 osl-1.9.9 vdb-4.0.0 clm-1.0.3.513 rlm-12.4.2 2018/08/09 09:37:24
+### host app: MtoA 3.1.0 32c632aa (master) Maya 2018
+### bounds: -47.824417 -0.968783 -1.915208 -39.135082 9.580288 5.136457
+### user: susanne.VFX
+### render_layer: defaultRenderLayer
+### scene: N:/01_student_work/susanne_bo/maya/default/scenes/grass_v002.mb
+
+
+
+options
+{
+ AA_samples 3
+ AA_samples_max 8
+ outputs "RGBA RGBA defaultArnoldFilter@gaussian_filter defaultArnoldDriver@driver_exr.RGBA"
+ xres 1920
+ yres 1080
+ texture_per_file_stats on
+ texture_searchpath "N:/01_student_work/susanne_bo/maya/default/sourceimages"
+ texture_automip off
+ camera "perspShape"
+ color_manager "defaultColorMgtGlobals"
+ frame 1
+ procedural_searchpath "N:/01_student_work/susanne_bo/maya/default/"
+ GI_diffuse_depth 1
+ GI_specular_depth 1
+ GI_transmission_depth 8
+ declare render_layer constant STRING
+ render_layer "defaultRenderLayer"
+}
+
+gaussian_filter
+{
+ name defaultArnoldFilter@gaussian_filter
+}
+
+driver_exr
+{
+ name defaultArnoldDriver@driver_exr.RGBA
+ filename "N:/01_student_work/susanne_bo/maya/default/images/grass_v002.exr"
+ color_space ""
+}
+
+color_manager_syncolor
+{
+ name defaultColorMgtGlobals
+ native_catalog_path "C:/Program Files/Autodesk/Maya2017/synColor"
+ custom_catalog_path "C:/Users/susanne.VFX/Documents/maya/synColor/Shared/"
+ rendering_color_space "scene-linear Rec 709/sRGB"
+}
+
+polymesh
+{
+ name group6|pPlane6|pPlaneShape6
+ visibility 255
+ sidedness 255
+ matrix
+ -0.200903192 -0.530047178 -0.017771855 0
+ 0.526035547 -0.201576546 0.0654328018 0
+ -0.0112019759 0.0011115747 0.0934807062 0
+ -41.5823631 2.43959641 0.779058337 1
+ shader "aiStandardSurface5"
+ id 3354275344
+ nsides 4 1 UINT
+4 4 4 4
+ vidxs 16 1 b85UINT
+B$v`&4%=8A:%<D`6%Whu<
+ nidxs 16 1 b85UINT
+B$v2N*&9nA:&9\)2&pa_@
+ uvidxs 16 1 b85UINT
+B$v`&4%=8A:%<D`6%Whu<
+ vlist 10 1 b85VECTOR
+ab./uaaF\&8+$sB8C%/ma,03(8=j_@8ca@xY4`U*yab./uaaF\&a6jNm8C%/ma,03(aI[:k8ca@x0'Uq_aRT=daR^R]aS<cN82;.5aR^R]aS<cNa>+^`8W.FC7_$r^8E'hk8W.FC7_$r^aPmDA
+ nlist 10 1 b85VECTOR
+aI@9j8?q5[zaE*RU8Bx>&zaE*RU8Bx>&zaI@9j8?q5[za7d,p8EiANz`aiV28Fb`jz`aiV28Fb`jza7d,p8EiANz7PKEK8Fc,nz7PKEK8Fc,nz
+ uvlist 10 1 b85VECTOR2
+zz89+]czyzz8(EX889+]c8(EX8y8(EX88+HY8z8+HY88(EX88?r5Nz8?r5N8(EX8
+ smoothing on
+ step_size 0
+ volume_padding 0
+ declare maya_full_name constant STRING
+ maya_full_name "|group6|pPlane6|pPlaneShape6"
+}
+
+polymesh
+{
+ name group6|pPlane1|pPlaneShape1
+ visibility 255
+ sidedness 255
+ matrix
+ -0.462427348 -0.801922143 -0.378261536 0
+ 0.613145173 -0.59738636 0.516897023 0
+ -0.106335081 0.00117845263 0.127497032 0
+ -40.3241081 3.61413693 2.36027384 1
+ shader "aiStandardSurface5"
+ id 1329286267
+ nsides 4 1 UINT
+4 4 4 4
+ vidxs 16 1 b85UINT
+B$v`&4%=8A:%<D`6%Whu<
+ nidxs 16 1 b85UINT
+B$v2N*&9nA:&9\)2&pa_@
+ uvidxs 16 1 b85UINT
+B$v`&4%=8A:%<D`6%Whu<
+ vlist 10 1 b85VECTOR
+ab./uaaF\&8+$sB8C%/ma,03(8=j_@8ca@xY4`U*yab./uaaF\&a6jNm8C%/ma,03(aI[:k8ca@x0'Uq_aRT=daR^R]aS<cN82;.5aR^R]aS<cNa>+^`8W.FC7_$r^8E'hk8W.FC7_$r^aPmDA
+ nlist 10 1 b85VECTOR
+aI@9j8?q5[zaE*RU8Bx>&zaE*RU8Bx>&zaI@9j8?q5[za7d,p8EiANz`aiV28Fb`jz`aiV28Fb`jza7d,p8EiANz7PKEK8Fc,nz7PKEK8Fc,nz
+ uvlist 10 1 b85VECTOR2
+zz89+]czyzz8(EX889+]c8(EX8y8(EX88+HY8z8+HY88(EX88?r5Nz8?r5N8(EX8
+ smoothing on
+ step_size 0
+ volume_padding 0
+ declare maya_full_name constant STRING
+ maya_full_name "|group6|pPlane1|pPlaneShape1"
+}
+
+polymesh
+{
+ name group6|pPlane2|pPlaneShape2
+ visibility 255
+ sidedness 255
+ matrix
+ -0.0271029547 -0.970084369 -0.241250426 0
+ -0.0744616166 -0.238709405 0.968232036 0
+ -0.165502131 0.00733924005 -0.0109184682 0
+ -42.3292503 4.44310284 1.70090985 1
+ shader "aiStandardSurface5"
+ id 4288956539
+ nsides 4 1 UINT
+4 4 4 4
+ vidxs 16 1 b85UINT
+B$v`&4%=8A:%<D`6%Whu<
+ nidxs 16 1 b85UINT
+B$v2N*&9nA:&9\)2&pa_@
+ uvidxs 16 1 b85UINT
+B$v`&4%=8A:%<D`6%Whu<
+ vlist 10 1 b85VECTOR
+ahZ*3ac(YH83UVd8;l8Ha4Eu\8OU1[8ca@xY4`U*yahZ*3abv=a7r]n88;l8Ha2ggX86iVK8ca@x0'Uq_aRT=da]3VBaVA<u8Sw0(a]3VBaV,]F8MBqR8W$Rf7\sc'8Fjmo8W$Rf7]Un]aNWO2
+ nlist 10 1 b85VECTOR
+aHXQx8@NSZ7W.N<aAddj8CrWC7M`&MaC+p)8CU[@7Nnr-aHXQx8@NSY7W.N:a8mZ=8E[tp7C;LY`l`.^8F`Lm7%8)D`]Bg98Fc&c6rnL3a4,aX8F*-F7>>l'7N[=^8Fc5u6T]M$7N[=^8Fc5u6T]M$
+ uvlist 10 1 b85VECTOR2
+zz89+]czyzz8(EX889+]c8(EX8y8(EX88+HY8z8+HY88(EX88?r5Nz8?r5N8(EX8
+ smoothing on
+ step_size 0
+ volume_padding 0
+ declare maya_full_name constant STRING
+ maya_full_name "|group6|pPlane2|pPlaneShape2"
+}
+
+polymesh
+{
+ name group6|pPlane4|pPlaneShape4
+ visibility 255
+ sidedness 255
+ matrix
+ 0.17152752 -0.323709786 -0.389163017 0
+ 0.19824037 0.421035379 -0.262845099 0
+ 0.0773281902 -0.00995973777 0.0423677899 0
+ -43.8460274 1.44810081 2.40668988 1
+ shader "aiStandardSurface5"
+ id 2540193661
+ nsides 4 1 UINT
+4 4 4 4
+ vidxs 16 1 b85UINT
+B$v`&4%=8A:%<D`6%Whu<
+ nidxs 16 1 b85UINT
+B$v2N*&9nA:&9\)2&pa_@
+ uvidxs 16 1 b85UINT
+B$v`&4%=8A:%<D`6%Whu<
+ vlist 10 1 b85VECTOR
+ad'd\aZi7&8W-0>8G6@QaI46,a@?m[8ca@xY4`U*yad(P?a[D)C8Sxrm8G5enaKhkxa[6N48ca@x0'Uq_aRT=daRYtEaRb%E8-.*qaRc0uaSlLWa8s[G8WQJ<a,I?k8;8M.8WS;\a0&PwaVL7e
+ nlist 10 1 b85VECTOR
+aC>LD8CBaSa%9;aa<&4%8Dxjga$Hc%a79ki8EcD+`x]Y,aC>LC8CBaSa%9;ba99k>8ERG)`q&V=a+g9o8FJjH`V8d>a0n9+8F8-[`[4IFa9J@`8EP2\`pF=-`tuw+8F\&0`I7)E`tuw*8F\&1`I7)F
+ uvlist 10 1 b85VECTOR2
+zz89+]czyzz8(EX889+]c8(EX8y8(EX88+HY8z8+HY88(EX88?r5Nz8?r5N8(EX8
+ smoothing on
+ step_size 0
+ volume_padding 0
+ declare maya_full_name constant STRING
+ maya_full_name "|group6|pPlane4|pPlaneShape4"
+}
+
+polymesh
+{
+ name group6|pPlane8|pPlaneShape8
+ visibility 255
+ sidedness 255
+ matrix
+ 0.0990843698 -0.385097533 -0.157790348 0
+ -0.16943197 -0.18547754 0.346275181 0
+ -0.063109003 -0.0029400303 -0.0324539356 0
+ -43.0694122 1.85186231 1.36197424 1
+ shader "aiStandardSurface5"
+ id 169853267
+ nsides 4 1 UINT
+4 4 4 4
+ vidxs 16 1 b85UINT
+B$v`&4%=8A:%<D`6%Whu<
+ nidxs 16 1 b85UINT
+B$v2N*&9nA:&9\)2&pa_@
+ uvidxs 16 1 b85UINT
+B$v`&4%=8A:%<D`6%Whu<
+ vlist 10 1 b85VECTOR
+acIg?adps5api$D8A`f/a9=wN880-U8ca@xY4`U*yacIg?ad`JjarE%=8A`f/a88obaNaf[8ca@x0'Uq_aRT=daTg5&aYP8aa]P:\aTg5&aY(-*acgkR8W-U67]8,+8Dvv%8W-U67]V0;aPs5r
+ nlist 10 1 b85VECTOR
+aJc>R8>R&.7Z)iqaFL&=8B--*7PceYaH]Q\8@JKP7VgUoaJc>Q8>R&-7Z)ipa:.wf8EKZU7APE%`mTxO8F`7n6wqaR`q(wn8F_,L7$K-la?5:L8DP''7I/_H7Nr7?8Fc4]6HmYc7Nr7?8Fc4\6HmYc
+ uvlist 10 1 b85VECTOR2
+zz89+]czyzz8(EX889+]c8(EX8y8(EX88+HY8z8+HY88(EX88?r5Nz8?r5N8(EX8
+ smoothing on
+ step_size 0
+ volume_padding 0
+ declare maya_full_name constant STRING
+ maya_full_name "|group6|pPlane8|pPlaneShape8"
+}
+
+polymesh
+{
+ name pPlaneShape135
+ visibility 255
+ sidedness 255
+ matrix
+ -0.0271029547 -0.970084369 -0.241250426 0
+ -0.0744616166 -0.238709405 0.968232036 0
+ -0.165502131 0.00733924005 -0.0109184682 0
+ -42.3292503 4.44310284 1.70090985 1
+ shader "aiStandardSurface5"
+ id 469289299
+ nsides 4 1 UINT
+4 4 4 4
+ vidxs 16 1 b85UINT
+B$v`&4%=8A:%<D`6%Whu<
+ nidxs 16 1 b85UINT
+B$v2N*&9nA:&9\)2&pa_@
+ uvidxs 16 1 b85UINT
+B$v`&4%=8A:%<D`6%Whu<
+ vlist 10 1 b85VECTOR
+ahZ*3ac(YH83UVd8;l8Ha4Eu\8OU1[8ca@xY4`U*yahZ*3abv=a7r]n88;l8Ha2ggX86iVK8ca@x0'Uq_aRT=da]3VBaVA<u8Sw0(a]3VBaV,]F8MBqR8W$Rf7\sc'8Fjmo8W$Rf7]Un]aNWO2
+ nlist 10 1 b85VECTOR
+aHXQx8@NSZ7W.N<aAddj8CrWC7M`&MaC+p)8CU[@7Nnr-aHXQx8@NSY7W.N:a8mZ=8E[tp7C;LY`l`.^8F`Lm7%8)D`]Bg98Fc&c6rnL3a4,aX8F*-F7>>l'7N[=^8Fc5u6T]M$7N[=^8Fc5u6T]M$
+ uvlist 10 1 b85VECTOR2
+zz89+]czyzz8(EX889+]c8(EX8y8(EX88+HY8z8+HY88(EX88?r5Nz8?r5N8(EX8
+ smoothing on
+ step_size 0
+ volume_padding 0
+ declare maya_full_name constant STRING
+ maya_full_name "|group6|pPlane135|pPlaneShape135"
+}
+
+polymesh
+{
+ name pPlaneShape106
+ visibility 255
+ sidedness 255
+ matrix
+ 0.590388656 -0.787964761 -0.174793303 0
+ 0.562195063 0.24608551 0.789543331 0
+ -0.0961476341 -0.0937049463 0.0976680517 0
+ -45.1624527 3.56012416 0.783782423 1
+ shader "aiStandardSurface5"
+ id 2036100759
+ nsides 4 1 UINT
+4 4 4 4
+ vidxs 16 1 b85UINT
+B$v`&4%=8A:%<D`6%Whu<
+ nidxs 16 1 b85UINT
+B$v2N*&9nA:&9\)2&pa_@
+ uvidxs 16 1 b85UINT
+B$v`&4%=8A:%<D`6%Whu<
+ vlist 10 1 b85VECTOR
+ab./uaaF\&8+$sB8C%/ma,03(8=j_@8ca@xY4`U*yab./uaaF\&a6jNm8C%/ma,03(aI[:k8ca@x0'Uq_aRT=daR^R]aS<cN82;.5aR^R]aS<cNa>+^`8W.FC7_$r^8E'hk8W.FC7_$r^aPmDA
+ nlist 10 1 b85VECTOR
+aI@9j8?q5[zaE*RU8Bx>&zaE*RU8Bx>&zaI@9j8?q5[za7d,p8EiANz`aiV28Fb`jz`aiV28Fb`jza7d,p8EiANz7PKEK8Fc,nz7PKEK8Fc,nz
+ uvlist 10 1 b85VECTOR2
+zz89+]czyzz8(EX889+]c8(EX8y8(EX88+HY8z8+HY88(EX88?r5Nz8?r5N8(EX8
+ smoothing on
+ step_size 0
+ volume_padding 0
+ declare maya_full_name constant STRING
+ maya_full_name "|group6|pPlane106|pPlaneShape106"
+}
+
+polymesh
+{
+ name pPlaneShape103
+ visibility 255
+ sidedness 255
+ matrix
+ 0.0946434811 -0.9766891 -0.192668065 0
+ 0.516947567 -0.117180429 0.847958684 0
+ -0.141248226 -0.0298599564 0.0819838569 0
+ -42.8372192 4.40474701 0.873137474 1
+ shader "aiStandardSurface5"
+ id 2798770529
+ nsides 4 1 UINT
+4 4 4 4
+ vidxs 16 1 b85UINT
+B$v`&4%=8A:%<D`6%Whu<
+ nidxs 16 1 b85UINT
+B$v2N*&9nA:&9\)2&pa_@
+ uvidxs 16 1 b85UINT
+B$v`&4%=8A:%<D`6%Whu<
+ vlist 10 1 b85VECTOR
+ab./uaaF\&8+$sB8C%/ma,03(8=j_@8ca@xY4`U*yab./uaaF\&a6jNm8C%/ma,03(aI[:k8ca@x0'Uq_aRT=daR^R]aS<cN82;.5aR^R]aS<cNa>+^`8W.FC7_$r^8E'hk8W.FC7_$r^aPmDA
+ nlist 10 1 b85VECTOR
+aI@9j8?q5[zaE*RU8Bx>&zaE*RU8Bx>&zaI@9j8?q5[za7d,p8EiANz`aiV28Fb`jz`aiV28Fb`jza7d,p8EiANz7PKEK8Fc,nz7PKEK8Fc,nz
+ uvlist 10 1 b85VECTOR2
+zz89+]czyzz8(EX889+]c8(EX8y8(EX88+HY8z8+HY88(EX88?r5Nz8?r5N8(EX8
+ smoothing on
+ step_size 0
+ volume_padding 0
+ declare maya_full_name constant STRING
+ maya_full_name "|group6|pPlane103|pPlaneShape103"
+}
+
+polymesh
+{
+ name pSphere7Shape
+ visibility 255
+ sidedness 255
+ matrix
+ 0.934771597 0.352802426 -0.0416237451 0
+ -0.442733467 1.14601934 -0.229106575 0
+ -0.0265075918 0.186110377 0.982171178 0
+ -16.6624146 7.44751596 -13.7352076 1
+ shader "aiStandardSurface5"
+ id 4037797320
+ nsides 69 1 b85UINT
+B!%<_l4$$$$0!$v;Z0$$$$(%<_l4%<
+ vidxs 260 1 b85UINT
+B&UOP6&psb:'7Bt>'Rg1B'n6CF(4ZUJ(P)gN(jZ1B)1r6V)MAHZ)heZ^*/4lb*JY)f*f(;j+,LMn+G'lb+c?qv,)d/%,E3A),`WS--'&e1-BJw5-]o49-xJS-.?bXA.[1jE.vV'I/=%9M/XIKQ/sm]U0:<oY0Tm9M0q0>a17TPe1Rxbi1nGtm24l1q2P;Cu2k_V$31:tm3MS%,3hw704/FI44Jj[84f9m<5,^*@5H-<D5b][8$`X2_$ZwFb6$3=F%xobk%s^-n6$WIF3iavE4JXvJ6DcQS5-$QQ5c?]V6D?ES7C,7q9XHw'7]eqs::<L37BAo$
+ nidxs 260 1 b85UINT
+B$v2N*&9nA:'RU4J(k<'Z*.woj+G^c%,`EV5.$,IE/<h<U0UO/e1n5wu31qk04JX^@5c?QP7'&D`8?b7p9XI++:q/s;<4kfK=MRY[>f9Lk@)u@&AB\36B[C&FCt)nVE7eafFPLTvGi3H1I,o;AJEV.QK^<vaLvxiqN:_],OSFP<Pl-CLR/i6\SHP)lTa6r'V$re7W=YXGXV@KWYo'>g[2c1w\KJ%2]d0mB_'l`R`@SSbaY:Frbqv:-d5]-=eNCuMfg*h]h*f[miCMO(j\4B8ktp5Hm8W(XnQ=phoj$cxq-`W3rFGJCs_.=St@vOQtwj'_rF5YU
+ uvidxs 260 1 b85UINT
+B&ps_8'7Bq<'Rg.@'n6@D(4ZRH(P)dL(kMvP)1r3T)heW\*/4i`*JY&d*f(8h+,LJl+Gp\p+c?nt,)d+x,`WP+-'&b/-BJt3-]o17.$>C;.?bU?.[1gC.vV$G/XIHO/smZS0:<lW0Ua)[0q0;_17TMc1Rx_g1nGqk2P;@s2k_Rw32.e&3MRw*3hw4.4/FF24JjX64f9j:5H-9B5cQKF6)u]J6EDoN6`i,R7'8>V7B\PZ7^+b^$aB\f$Zw^j96CBY&%)Ov%s^R%:O*5i5e/he6E3Sk;lhw+7(k[u7]oG&=0Oj;>Jj:g?cQ-w@ED?uA'7m.>JXJ$
+ vlist 70 1 b85VECTOR
+b>1D`8n(m&9%jkBb>2.j8n';Q9%i?[b>2o+8n%\]9%jkBb>3298n%(A9%nN)b>2o+8n%\]9%r0eb>2.j8n';Q9%s\Lb>1D`8n(m&9%r0eb>1(38n)Sv9%nN)b>1W*8n;i79%h(nb>2x_8n8kh9%eE.b>4E?8n5nE9%h(nb>4vR8n4Z[9%nN)b>4E?8n5nE9%ts9b>2x_8n8kh9%wW$b>1W*8n;i79%ts9b>1%k8n='v9%nN)b>3\68nUD79%g*ab>5MO8nQMj9%d$Zb>7>i8nMWH9%g*ab>8*08nKxT9%nN)b>7>i8nMWH9%uqFb>5MO8nQMj9%xwMb>3\68nUD79%uqFb>2po8nVx*9%nN)b>6`:8nq%L9%gD%b>8^B8nlhl9%dHEb>:\J8nhW79%gD%b>;M%8nfm,9%nN)b>:\J8nhW79%uX-b>8^B8nlhl9%xSbb>6`:8nq%L9%uX-b>5oU8nrdW9%nN)b>9_68o6dv9%g*ab>;dN8o3.o9%d$Zb>=Uh8o/8M9%g*ab>>A.8o-YY9%nN)b>=Uh8o/8M9%uqFb>;dN8o3.o9%xwMb>9_68o6dv9%uqFb>9L78o7GI9%nN)b>=WN8oKTi9%h(nb>>n]8oHj$9%eE.b>@;w8oEkA9%h(nb>@m68oDWV9%nN)b>@;w8oEkA9%ts9b>>n]8oHj$9%wW$b>=WN8oKTi9%ts9b>=EG8oL1?9%nN)b>A>Q8oWXc9%jkBb>AxM8oV/j9%i?[b>Bba8oTS%9%jkBb>C&V8oSrP9%nN)b>Bba8oTS%9%r0eb>AxM8oV/j9%s\Lb>A>Q8oWXc9%r0eb>A*v8oX0M9%nN)b>1jI8mv-i9%nN)b>C.R8oZid9%nN)b>15G8f-h?9%H3Yb>bpj7mH(T9$/X[b>+TP8f+WC9%@aqb>Q,.7j6Cf8xd7>b>95J8naw*9%mWNb>8wE8nfb\9%nN)b>5V@8Yr<@9$hx8b>-7@8Yn-K9$Z)$b>3TU8n6/]9%oqnb>2Et8n:e.9%s46b>,/g8lpoY9%`NFb>*b18m$.c9%e*_
+ nlist 252 1 b85VECTOR
+8?H5Za-*abaIBsj8?H5[a-*acaIBsj8?H5\a-*adaIBsk8?H5\a-*acaIBsjaD]M>aAOrVaKbaPaD]M>aAOrWaKbaPaD]M?aAOrXaKbaQaD]M?aAOrWaKbaPaO]4na?dBCa0_\XaO]4oa?dBDa0_\XaO]4pa?dBEa0_\XaO]4na?dBDa0_\WaO]4oa?dBD8$o,-aO]4oa?dBE8$o,.aO]4na?dBD8$o,-aO]4na?dBC8$o,-aD]HXaAP+98?r.TaD]HXaAP+:8?r.VaD]HYaAP+88?r.UaD]HYaAP+:8?r.U8?H5<a-*aJ8=RCa8?H5=a-*aI8=RCb8?H5=a-*aI8=RCc8?H5=a-*aJ8=RCd8F>^k`Btn$7xQl78F>^k`Btn$7xQl98F>^k`Btn$7xQl78F>^l`Btn&7xQl88F>^t`Btiva/BE*8F>^v`Btixa/BE,8F>^v`Btixa/BE,8F>^u`Btiwa/BE+8<14v7uESjaLKFx8<14t7uESjaLKFw8<14u7uESiaLKFw8<14v7uESlaLKFxaEfxga:h(LaLa$uaEfxha:h(MaLa$uaEfxia:h(MaLa$uaEfxia:h(MaLa$uaNq6vaB=$ca39D=aNq6vaB=$ea39D?aNq6waB=$da39D?aNq6uaB=$da39D>aNq65aB='r8'Hh)aNq64aB='q8'Hh'aNq65aB='r8'Hh'aNq64aB='q8'Hh'aEfxwa:h&\8@pI`aEfxwa:h&[8@pI_aEfxxa:h&\8@pI`aEfxxa:h&\8@pI`8<18x7uEP$8@ZhL8<18x7uEOx8@ZhL8<18w7uEOx8@ZhM8<18x7uEOx8@ZhL8E&m68-%B^8&xFX8E&m58-%B]8&xFW8E&m58-%B]8&xFW8E&m58-%B]8&xFW8E&la8-%E$a2i$;8E&lb8-%Dxa2i$:8E&lc8-%E%a2i$<8E&lb8-%Dxa2i$;89IxI8+^>oaMZZP89IxH8+^>oaMZZP89IxH8+^>naMZZP89IxH8+^>naMZZPaEV-'a56ZhaMY5gaEV-'a56ZhaMY5faEV-'a56ZfaMY5faEV-'a56ZhaMY5gaNx46aA;Tga5w8/aNx45aA;Tga5w80aNx46aA;Tea5w8/aNx45aA;Tfa5w8-aNx30aA;Y68*1[paNx31aA;Y78*1[qaNx31aA;Y58*1[naNx32aA;Y68*1[qaEV,;a56\U8AhZZaEV,;a56\T8AhZZaEV,:a56\S8AhZYaEV,:a56\S8AhZZ89Iwa8+^>u8Aj*J89Iwa8+^>u8Aj*J89Iwa8+^>u8Aj*J89Iwa8+^>u8Aj*J8Cb<?83*MR8*-t%8Cb<@83*MQ8*-t'8Cb<@83*MS8*-t'8Cb<?83*MQ8*-t$8Cb=?83*J&a5sKp8Cb=@83*J'a5sKq8Cb=@83*J'a5sKr8Cb=@83*J(a5sKr89RPf8'%YIaMrcg89RPg8'%YKaMrcj89RPg8'%YIaMrch89RPf8'%YIaMrcgaECdDa6r7maMZ?IaECdDa6r7naMZ?IaECdDa6r7laMZ?IaECdDa6r7maMZ?HaO`]1a>1%]a5o7faO`]1a>1%\a5o7eaO`]1a>1%]a5o7daO`]0a>1%\a5o7eaO`\Ka>1)*8*)[gaO`\Ka>1),8*)[haO`\La>1),8*)[gaO`\La>1),8*)[haEChBa6r2W8AiaiaEChCa6r2X8AiaiaEChBa6r2U8AiahaEChBa6r2W8Aiai89RQ>8'%__8B-2T89RQ>8'%__8B-2U89RQ>8'%__8B-2U89RQ>8'%__8B-2U8CR2T85m8l7vraj8CR2T85m8k7vrak8CR2S85m8j7vrak8CR2U85m8k7vral8CR1t85m;Ba-c<o8CR1v85m;Da-c<q8CR1t85m;Ca-c<p8CR1t85m;Da-c<p87q7$83gT;aLSmj87q6w83gT;aLSmi87q7$83gT<aLSmi87q6w83gT;aLSmiaG*ija4(K7aL]s9aG*ija4(K8aL]s9aG*ija4(K8aL]s9aG*ija4(K8aL]s9aOX4Ca?EC_a35.paOX4Ca?EC`a35.oaOX4Ca?EC`a35.oaOX4Ba?EC_a35.oaOX3na?EF(8'DRraOX3ma?EF(8'DRqaOX3ma?EF(8'DRraOX3na?EF)8'DRsaG*oba4(>i8@m?:aG*oca4(>h8@m?9aG*oca4(>i8@m?8aG*oba4(>i8@m?:87q7g83gPh8@c=v87q7e83gPf8@c=t87q7e83gPh8@c=u87q7f83gPi8@c=u8A/KH8;oOS7h9VW8A/KJ8;oOU7h9VX8A/KI8;oOT7h9VW8A/KI8;oOT7h9VX8A/Hd8;oS)`t*4<8A/Hd8;oS)`t*4<8A/Hd8;oS(`t*4<8A/Hd8;oS)`t*4=8/?J>8>:[vaHw\58/?J?8>:[uaHw\58/?J>8>:[uaHw\38/?J?8>:[uaHw\3aHoHoa,m1laK]UIaHoHoa,m1maK]UIaHoHqa,m1naK]UIaHoHpa,m1laK]UIaNNElaD<hWa0r=IaNNEkaD<hWa0r=GaNNEkaD<hXa0r=IaNNElaD<hXa0r=IaNNEEaD<h,8%,lLaNNEFaD<h,8%,lMaNNEFaD<h,8%,lLaNNEEaD<h,8%,lLaHoIea,le+8?m%taHoIda,le+8?m%saHoIea,le*8?m%saHoIda,le*8?m%s8/?7t8>:b+8=2)a8/?7t8>:b+8=2)a8/?7v8>:b+8=2)b8/?7u8>:b+8=2)a8<;K*8@ehp7l[t18<;K,8@ehq7l[t38<;K+8@ehp7l[t38<;K,8@ehp7l[t38<;N:8@efJ`xLM:8<;N:8@efJ`xLM:8<;N98@efH`xLM78<;N98@efI`xLM88?+lFaFJgaa@:3H8?+lEaFJg`a@:3F8?+lEaFJg_a@:3F`k=@=aNd>2aE,]H`k=@=aNd>3aE,]I`k=@<aNd>3aE,]HaG6s9aLwt\a-4=@aG6s7aLwt]a-4=@aG6s8aLwt]a-4=@aG6fKaLx)^7vCUZaG6fJaLx)\7vCUXaG6fKaLx)]7vCUY`k;'1aNd>^89<-7`k;'3aNd>_89<-9`k;'3aNd>^89<-88?+bUaFJon84Id+8?+bUaFJoo84Id,8?+bUaFJom84Id+8DiBfa<@$e7t0?;8DiBea<@$d7t0?<8DiBea<@$f7t0?<8DiBea<@$da*uog8DiBfa<@$ea*uof8DiBea<@$fa*uog`]PMT8D4f[a@Wnl`]PMU8D4f[a@Wnl`]PMU8D4f[a@WnmaK]Dk84WsIaEABmaK]Dj84WsHaEABlaK]Dk84WsIaEABmaR21-`lt<da-\bVaR21-`lt<ea-\bWaR21.`lt<ea-\bWaR21%`lt<_7vl4KaR21%`lt<^7vl4JaR21%`lt<^7vl4KaK]N\84W*x89PvMaK]N[84W*x89PvMaK]N[84W*v89PvL`]LJL8D4fo84g>R`]LJM8D4fo84g>S`]LJL8D4fn84g>R8.]$j8E8m'7nj>-8.]$l8E8m(7nj>/8.]$k8E8m'7nj>-8.]$k8E8m(a%ZnY8.]$k8E8m(a%ZnY8.]$l8E8m(a%ZnX89EY&a*4t.8BZ9r8<`Hfa3_gJ8?be^8<bb:a44M>8?]aZ8:)Z]a*DS48B640aI(0ja7(8X8?%:uaI(0ja7(8W8?%:uaH<v0a<5-S8>ZpYaHIUfa;=X_8>aa18<r)Za7KW*8?8@r8<r)Ya7KW*8?8@r8$@7\a(F2g8F*]h6[X$@a0M6x8F:<)
+ uvlist 91 1 b85VECTOR2
+z!7reTb$$$$'8+HY87reTb82:0x7reTb89+]c7reTb8<Nt.7reTb8?r5N7reTb8C@Kn7reTby7reTbz8+HY87reTb!8+HY8$$$$'82:0x8+HY889+]c8+HY88<Nt.8+HY88?r5N8+HY88C@Kn8+HY8y8+HY8z82:0x7reTb82:0x8+HY8!82:0x$$$$'89+]c82:0x8<Nt.82:0x8?r5N82:0x8C@Kn82:0xy82:0xz89+]c7reTb89+]c8+HY889+]c82:0x!89+]c$$$$'8<Nt.89+]c8?r5N89+]c8C@Kn89+]cy89+]cz8<Nt.7reTb8<Nt.8+HY88<Nt.82:0x8<Nt.89+]c!8<Nt.$$$$'8?r5N8<Nt.8C@Kn8<Nt.y8<Nt.z8?r5N7reTb8?r5N8+HY88?r5N82:0x8?r5N89+]c8?r5N8<Nt.!8?r5N$$$$'8C@Kn8?r5Ny8?r5Nz8C@Kn7reTb8C@Kn8+HY88C@Kn82:0x8C@Kn89+]c8C@Kn8<Nt.8C@Kn8?r5N!8C@Kn$$$$'y8C@Kn7e-P7z8$W,Mz8.koXz85]GCz8:ghsz8>6*>z8AY@^z8E'W)z7e-P7y8$W,My8.koXy85]GCy8:ghsy8>6*>y8AY@^y8E'W)y89+]cz8?r5Nz8?r5N8(EX889+]c8(EX88+HY88(EX88+HY8z8-\rkz8-\rk8(EX7yzy8(EX881,ETz81,ET8(EX8
+ smoothing on
+ step_size 0
+ volume_padding 0
+ declare maya_full_name constant STRING
+ maya_full_name "|group6|pSphere7|pSphere7Shape"
+}
+
+polymesh
+{
+ name pPlaneShape136
+ visibility 255
+ sidedness 255
+ matrix
+ -0.462427348 -0.801922143 -0.378261536 0
+ 0.613145173 -0.59738636 0.516897023 0
+ -0.106335081 0.00117845263 0.127497032 0
+ -40.3241081 3.61413693 2.36027384 1
+ shader "aiStandardSurface5"
+ id 735792130
+ nsides 4 1 UINT
+4 4 4 4
+ vidxs 16 1 b85UINT
+B$v`&4%=8A:%<D`6%Whu<
+ nidxs 16 1 b85UINT
+B$v2N*&9nA:&9\)2&pa_@
+ uvidxs 16 1 b85UINT
+B$v`&4%=8A:%<D`6%Whu<
+ vlist 10 1 b85VECTOR
+ab./uaaF\&8+$sB8C%/ma,03(8=j_@8ca@xY4`U*yab./uaaF\&a6jNm8C%/ma,03(aI[:k8ca@x0'Uq_aRT=daR^R]aS<cN82;.5aR^R]aS<cNa>+^`8W.FC7_$r^8E'hk8W.FC7_$r^aPmDA
+ nlist 10 1 b85VECTOR
+aI@9j8?q5[zaE*RU8Bx>&zaE*RU8Bx>&zaI@9j8?q5[za7d,p8EiANz`aiV28Fb`jz`aiV28Fb`jza7d,p8EiANz7PKEK8Fc,nz7PKEK8Fc,nz
+ uvlist 10 1 b85VECTOR2
+zz89+]czyzz8(EX889+]c8(EX8y8(EX88+HY8z8+HY88(EX88?r5Nz8?r5N8(EX8
+ smoothing on
+ step_size 0
+ volume_padding 0
+ declare maya_full_name constant STRING
+ maya_full_name "|group6|pPlane136|pPlaneShape136"
+}
+
+polymesh
+{
+ name pPlaneShape66
+ visibility 255
+ sidedness 255
+ matrix
+ 0.0990843698 -0.385097533 -0.157790348 0
+ -0.16943197 -0.18547754 0.346275181 0
+ -0.063109003 -0.0029400303 -0.0324539356 0
+ -43.0694122 1.85186231 1.36197424 1
+ shader "aiStandardSurface5"
+ id 499029650
+ nsides 4 1 UINT
+4 4 4 4
+ vidxs 16 1 b85UINT
+B$v`&4%=8A:%<D`6%Whu<
+ nidxs 16 1 b85UINT
+B$v2N*&9nA:&9\)2&pa_@
+ uvidxs 16 1 b85UINT
+B$v`&4%=8A:%<D`6%Whu<
+ vlist 10 1 b85VECTOR
+acIg?adps5api$D8A`f/a9=wN880-U8ca@xY4`U*yacIg?ad`JjarE%=8A`f/a88obaNaf[8ca@x0'Uq_aRT=daTg5&aYP8aa]P:\aTg5&aY(-*acgkR8W-U67]8,+8Dvv%8W-U67]V0;aPs5r
+ nlist 10 1 b85VECTOR
+aJc>R8>R&.7Z)iqaFL&=8B--*7PceYaH]Q\8@JKP7VgUoaJc>Q8>R&-7Z)ipa:.wf8EKZU7APE%`mTxO8F`7n6wqaR`q(wn8F_,L7$K-la?5:L8DP''7I/_H7Nr7?8Fc4]6HmYc7Nr7?8Fc4\6HmYc
+ uvlist 10 1 b85VECTOR2
+zz89+]czyzz8(EX889+]c8(EX8y8(EX88+HY8z8+HY88(EX88?r5Nz8?r5N8(EX8
+ smoothing on
+ step_size 0
+ volume_padding 0
+ declare maya_full_name constant STRING
+ maya_full_name "|group6|pPlane66|pPlaneShape66"
+}
+
+polymesh
+{
+ name pPlaneShape51
+ visibility 255
+ sidedness 255
+ matrix
+ -0.200903192 -0.530047178 -0.017771855 0
+ 0.526035547 -0.201576546 0.0654328018 0
+ -0.0112019759 0.0011115747 0.0934807062 0
+ -41.5823631 2.43959641 0.779058337 1
+ shader "aiStandardSurface5"
+ id 1741829908
+ nsides 4 1 UINT
+4 4 4 4
+ vidxs 16 1 b85UINT
+B$v`&4%=8A:%<D`6%Whu<
+ nidxs 16 1 b85UINT
+B$v2N*&9nA:&9\)2&pa_@
+ uvidxs 16 1 b85UINT
+B$v`&4%=8A:%<D`6%Whu<
+ vlist 10 1 b85VECTOR
+ab./uaaF\&8+$sB8C%/ma,03(8=j_@8ca@xY4`U*yab./uaaF\&a6jNm8C%/ma,03(aI[:k8ca@x0'Uq_aRT=daR^R]aS<cN82;.5aR^R]aS<cNa>+^`8W.FC7_$r^8E'hk8W.FC7_$r^aPmDA
+ nlist 10 1 b85VECTOR
+aI@9j8?q5[zaE*RU8Bx>&zaE*RU8Bx>&zaI@9j8?q5[za7d,p8EiANz`aiV28Fb`jz`aiV28Fb`jza7d,p8EiANz7PKEK8Fc,nz7PKEK8Fc,nz
+ uvlist 10 1 b85VECTOR2
+zz89+]czyzz8(EX889+]c8(EX8y8(EX88+HY8z8+HY88(EX88?r5Nz8?r5N8(EX8
+ smoothing on
+ step_size 0
+ volume_padding 0
+ declare maya_full_name constant STRING
+ maya_full_name "|group6|pPlane51|pPlaneShape51"
+}
+
+polymesh
+{
+ name pPlaneShape47
+ visibility 255
+ sidedness 255
+ matrix
+ -0.0759497657 -0.826713979 -0.557472587 0
+ -0.949554741 0.230570957 -0.212562487 0
+ 0.0505154096 0.0852047205 -0.133238062 0
+ -42.5323906 3.67016578 3.2720232 1
+ shader "aiStandardSurface5"
+ id 746139923
+ nsides 4 1 UINT
+4 4 4 4
+ vidxs 16 1 b85UINT
+B$v`&4%=8A:%<D`6%Whu<
+ nidxs 16 1 b85UINT
+B$v2N*&9nA:&9\)2&pa_@
+ uvidxs 16 1 b85UINT
+B$v`&4%=8A:%<D`6%Whu<
+ vlist 10 1 b85VECTOR
+ab./uaaF\&8+$sB8C%/ma,03(8=j_@8ca@xY4`U*yab./uaaF\&a6jNm8C%/ma,03(aI[:k8ca@x0'Uq_aRT=daR^R]aS<cN82;.5aR^R]aS<cNa>+^`8W.FC7_$r^8E'hk8W.FC7_$r^aPmDA
+ nlist 10 1 b85VECTOR
+aI@9j8?q5[zaE*RU8Bx>&zaE*RU8Bx>&zaI@9j8?q5[za7d,p8EiANz`aiV28Fb`jz`aiV28Fb`jza7d,p8EiANz7PKEK8Fc,nz7PKEK8Fc,nz
+ uvlist 10 1 b85VECTOR2
+zz89+]czyzz8(EX889+]c8(EX8y8(EX88+HY8z8+HY88(EX88?r5Nz8?r5N8(EX8
+ smoothing on
+ step_size 0
+ volume_padding 0
+ declare maya_full_name constant STRING
+ maya_full_name "|group6|pPlane47|pPlaneShape47"
+}
+
+polymesh
+{
+ name pPlaneShape86
+ visibility 255
+ sidedness 255
+ matrix
+ 0.424660921 -0.849679112 -0.312583596 0
+ 0.899787068 0.434320867 0.0418161638 0
+ 0.0166408122 -0.0496439487 0.15755187 0
+ -44.8827324 3.83455086 2.06172991 1
+ shader "aiStandardSurface5"
+ id 2009359313
+ nsides 4 1 UINT
+4 4 4 4
+ vidxs 16 1 b85UINT
+B$v`&4%=8A:%<D`6%Whu<
+ nidxs 16 1 b85UINT
+B$v2N*&9nA:&9\)2&pa_@
+ uvidxs 16 1 b85UINT
+B$v`&4%=8A:%<D`6%Whu<
+ vlist 10 1 b85VECTOR
+ab./uaaF\&8+$sB8C%/ma,03(8=j_@8ca@xY4`U*yab./uaaF\&a6jNm8C%/ma,03(aI[:k8ca@x0'Uq_aRT=daR^R]aS<cN82;.5aR^R]aS<cNa>+^`8W.FC7_$r^8E'hk8W.FC7_$r^aPmDA
+ nlist 10 1 b85VECTOR
+aI@9j8?q5[zaE*RU8Bx>&zaE*RU8Bx>&zaI@9j8?q5[za7d,p8EiANz`aiV28Fb`jz`aiV28Fb`jza7d,p8EiANz7PKEK8Fc,nz7PKEK8Fc,nz
+ uvlist 10 1 b85VECTOR2
+zz89+]czyzz8(EX889+]c8(EX8y8(EX88+HY8z8+HY88(EX88?r5Nz8?r5N8(EX8
+ smoothing on
+ step_size 0
+ volume_padding 0
+ declare maya_full_name constant STRING
+ maya_full_name "|group6|pPlane86|pPlaneShape86"
+}
+
+polymesh
+{
+ name pPlaneShape77
+ visibility 255
+ sidedness 255
+ matrix
+ 0.17152752 -0.323709786 -0.389163017 0
+ 0.19824037 0.421035379 -0.262845099 0
+ 0.0773281902 -0.00995973777 0.0423677899 0
+ -43.8460274 1.44810081 2.40668988 1
+ shader "aiStandardSurface5"
+ id 3491950589
+ nsides 4 1 UINT
+4 4 4 4
+ vidxs 16 1 b85UINT
+B$v`&4%=8A:%<D`6%Whu<
+ nidxs 16 1 b85UINT
+B$v2N*&9nA:&9\)2&pa_@
+ uvidxs 16 1 b85UINT
+B$v`&4%=8A:%<D`6%Whu<
+ vlist 10 1 b85VECTOR
+ad'd\aZi7&8W-0>8G6@QaI46,a@?m[8ca@xY4`U*yad(P?a[D)C8Sxrm8G5enaKhkxa[6N48ca@x0'Uq_aRT=daRYtEaRb%E8-.*qaRc0uaSlLWa8s[G8WQJ<a,I?k8;8M.8WS;\a0&PwaVL7e
+ nlist 10 1 b85VECTOR
+aC>LD8CBaSa%9;aa<&4%8Dxjga$Hc%a79ki8EcD+`x]Y,aC>LC8CBaSa%9;ba99k>8ERG)`q&V=a+g9o8FJjH`V8d>a0n9+8F8-[`[4IFa9J@`8EP2\`pF=-`tuw+8F\&0`I7)E`tuw*8F\&1`I7)F
+ uvlist 10 1 b85VECTOR2
+zz89+]czyzz8(EX889+]c8(EX8y8(EX88+HY8z8+HY88(EX88?r5Nz8?r5N8(EX8
+ smoothing on
+ step_size 0
+ volume_padding 0
+ declare maya_full_name constant STRING
+ maya_full_name "|group6|pPlane77|pPlaneShape77"
+}
+
+polymesh
+{
+ name pPlaneShape33
+ visibility 255
+ sidedness 255
+ matrix
+ 0.0946434811 -0.9766891 -0.192668065 0
+ 0.516947567 -0.117180429 0.847958684 0
+ -0.141248226 -0.0298599564 0.0819838569 0
+ -42.8372192 4.40474701 0.873137474 1
+ shader "aiStandardSurface5"
+ id 2604239804
+ nsides 4 1 UINT
+4 4 4 4
+ vidxs 16 1 b85UINT
+B$v`&4%=8A:%<D`6%Whu<
+ nidxs 16 1 b85UINT
+B$v2N*&9nA:&9\)2&pa_@
+ uvidxs 16 1 b85UINT
+B$v`&4%=8A:%<D`6%Whu<
+ vlist 10 1 b85VECTOR
+ab./uaaF\&8+$sB8C%/ma,03(8=j_@8ca@xY4`U*yab./uaaF\&a6jNm8C%/ma,03(aI[:k8ca@x0'Uq_aRT=daR^R]aS<cN82;.5aR^R]aS<cNa>+^`8W.FC7_$r^8E'hk8W.FC7_$r^aPmDA
+ nlist 10 1 b85VECTOR
+aI@9j8?q5[zaE*RU8Bx>&zaE*RU8Bx>&zaI@9j8?q5[za7d,p8EiANz`aiV28Fb`jz`aiV28Fb`jza7d,p8EiANz7PKEK8Fc,nz7PKEK8Fc,nz
+ uvlist 10 1 b85VECTOR2
+zz89+]czyzz8(EX889+]c8(EX8y8(EX88+HY8z8+HY88(EX88?r5Nz8?r5N8(EX8
+ smoothing on
+ step_size 0
+ volume_padding 0
+ declare maya_full_name constant STRING
+ maya_full_name "|group6|pPlane33|pPlaneShape33"
+}
+
+polymesh
+{
+ name group6|pPlane3|pPlaneShape3
+ visibility 255
+ sidedness 255
+ matrix
+ -0.0759497657 -0.826713979 -0.557472587 0
+ -0.949554741 0.230570957 -0.212562487 0
+ 0.0505154096 0.0852047205 -0.133238062 0
+ -42.5323906 3.67016578 3.2720232 1
+ shader "aiStandardSurface5"
+ id 3001725789
+ nsides 4 1 UINT
+4 4 4 4
+ vidxs 16 1 b85UINT
+B$v`&4%=8A:%<D`6%Whu<
+ nidxs 16 1 b85UINT
+B$v2N*&9nA:&9\)2&pa_@
+ uvidxs 16 1 b85UINT
+B$v`&4%=8A:%<D`6%Whu<
+ vlist 10 1 b85VECTOR
+ab./uaaF\&8+$sB8C%/ma,03(8=j_@8ca@xY4`U*yab./uaaF\&a6jNm8C%/ma,03(aI[:k8ca@x0'Uq_aRT=daR^R]aS<cN82;.5aR^R]aS<cNa>+^`8W.FC7_$r^8E'hk8W.FC7_$r^aPmDA
+ nlist 10 1 b85VECTOR
+aI@9j8?q5[zaE*RU8Bx>&zaE*RU8Bx>&zaI@9j8?q5[za7d,p8EiANz`aiV28Fb`jz`aiV28Fb`jza7d,p8EiANz7PKEK8Fc,nz7PKEK8Fc,nz
+ uvlist 10 1 b85VECTOR2
+zz89+]czyzz8(EX889+]c8(EX8y8(EX88+HY8z8+HY88(EX88?r5Nz8?r5N8(EX8
+ smoothing on
+ step_size 0
+ volume_padding 0
+ declare maya_full_name constant STRING
+ maya_full_name "|group6|pPlane3|pPlaneShape3"
+}
+
+polymesh
+{
+ name pPlaneShape32
+ visibility 255
+ sidedness 255
+ matrix
+ 0.424660921 -0.849679112 -0.312583596 0
+ 0.899787068 0.434320867 0.0418161638 0
+ 0.0166408122 -0.0496439487 0.15755187 0
+ -44.8827324 3.83455086 2.06172991 1
+ shader "aiStandardSurface5"
+ id 2489697602
+ nsides 4 1 UINT
+4 4 4 4
+ vidxs 16 1 b85UINT
+B$v`&4%=8A:%<D`6%Whu<
+ nidxs 16 1 b85UINT
+B$v2N*&9nA:&9\)2&pa_@
+ uvidxs 16 1 b85UINT
+B$v`&4%=8A:%<D`6%Whu<
+ vlist 10 1 b85VECTOR
+ab./uaaF\&8+$sB8C%/ma,03(8=j_@8ca@xY4`U*yab./uaaF\&a6jNm8C%/ma,03(aI[:k8ca@x0'Uq_aRT=daR^R]aS<cN82;.5aR^R]aS<cNa>+^`8W.FC7_$r^8E'hk8W.FC7_$r^aPmDA
+ nlist 10 1 b85VECTOR
+aI@9j8?q5[zaE*RU8Bx>&zaE*RU8Bx>&zaI@9j8?q5[za7d,p8EiANz`aiV28Fb`jz`aiV28Fb`jza7d,p8EiANz7PKEK8Fc,nz7PKEK8Fc,nz
+ uvlist 10 1 b85VECTOR2
+zz89+]czyzz8(EX889+]c8(EX8y8(EX88+HY8z8+HY88(EX88?r5Nz8?r5N8(EX8
+ smoothing on
+ step_size 0
+ volume_padding 0
+ declare maya_full_name constant STRING
+ maya_full_name "|group6|pPlane32|pPlaneShape32"
+}
+
+polymesh
+{
+ name pSphere3Shape
+ visibility 255
+ sidedness 255
+ matrix
+ 0.934771597 0.352802426 -0.0416237451 0
+ -0.442733467 1.14601934 -0.229106575 0
+ -0.0265075918 0.186110377 0.982171178 0
+ -16.6624146 7.44751596 -13.7352076 1
+ shader "aiStandardSurface5"
+ id 3490160396
+ nsides 69 1 b85UINT
+B!%<_l4$$$$0!$v;Z0$$$$(%<_l4%<
+ vidxs 260 1 b85UINT
+B&UOP6&psb:'7Bt>'Rg1B'n6CF(4ZUJ(P)gN(jZ1B)1r6V)MAHZ)heZ^*/4lb*JY)f*f(;j+,LMn+G'lb+c?qv,)d/%,E3A),`WS--'&e1-BJw5-]o49-xJS-.?bXA.[1jE.vV'I/=%9M/XIKQ/sm]U0:<oY0Tm9M0q0>a17TPe1Rxbi1nGtm24l1q2P;Cu2k_V$31:tm3MS%,3hw704/FI44Jj[84f9m<5,^*@5H-<D5b][8$`X2_$ZwFb6$3=F%xobk%s^-n6$WIF3iavE4JXvJ6DcQS5-$QQ5c?]V6D?ES7C,7q9XHw'7]eqs::<L37BAo$
+ nidxs 260 1 b85UINT
+B$v2N*&9nA:'RU4J(k<'Z*.woj+G^c%,`EV5.$,IE/<h<U0UO/e1n5wu31qk04JX^@5c?QP7'&D`8?b7p9XI++:q/s;<4kfK=MRY[>f9Lk@)u@&AB\36B[C&FCt)nVE7eafFPLTvGi3H1I,o;AJEV.QK^<vaLvxiqN:_],OSFP<Pl-CLR/i6\SHP)lTa6r'V$re7W=YXGXV@KWYo'>g[2c1w\KJ%2]d0mB_'l`R`@SSbaY:Frbqv:-d5]-=eNCuMfg*h]h*f[miCMO(j\4B8ktp5Hm8W(XnQ=phoj$cxq-`W3rFGJCs_.=St@vOQtwj'_rF5YU
+ uvidxs 260 1 b85UINT
+B&ps_8'7Bq<'Rg.@'n6@D(4ZRH(P)dL(kMvP)1r3T)heW\*/4i`*JY&d*f(8h+,LJl+Gp\p+c?nt,)d+x,`WP+-'&b/-BJt3-]o17.$>C;.?bU?.[1gC.vV$G/XIHO/smZS0:<lW0Ua)[0q0;_17TMc1Rx_g1nGqk2P;@s2k_Rw32.e&3MRw*3hw4.4/FF24JjX64f9j:5H-9B5cQKF6)u]J6EDoN6`i,R7'8>V7B\PZ7^+b^$aB\f$Zw^j96CBY&%)Ov%s^R%:O*5i5e/he6E3Sk;lhw+7(k[u7]oG&=0Oj;>Jj:g?cQ-w@ED?uA'7m.>JXJ$
+ vlist 70 1 b85VECTOR
+b>1D`8n(m&9%jkBb>2.j8n';Q9%i?[b>2o+8n%\]9%jkBb>3298n%(A9%nN)b>2o+8n%\]9%r0eb>2.j8n';Q9%s\Lb>1D`8n(m&9%r0eb>1(38n)Sv9%nN)b>1W*8n;i79%h(nb>2x_8n8kh9%eE.b>4E?8n5nE9%h(nb>4vR8n4Z[9%nN)b>4E?8n5nE9%ts9b>2x_8n8kh9%wW$b>1W*8n;i79%ts9b>1%k8n='v9%nN)b>3\68nUD79%g*ab>5MO8nQMj9%d$Zb>7>i8nMWH9%g*ab>8*08nKxT9%nN)b>7>i8nMWH9%uqFb>5MO8nQMj9%xwMb>3\68nUD79%uqFb>2po8nVx*9%nN)b>6`:8nq%L9%gD%b>8^B8nlhl9%dHEb>:\J8nhW79%gD%b>;M%8nfm,9%nN)b>:\J8nhW79%uX-b>8^B8nlhl9%xSbb>6`:8nq%L9%uX-b>5oU8nrdW9%nN)b>9_68o6dv9%g*ab>;dN8o3.o9%d$Zb>=Uh8o/8M9%g*ab>>A.8o-YY9%nN)b>=Uh8o/8M9%uqFb>;dN8o3.o9%xwMb>9_68o6dv9%uqFb>9L78o7GI9%nN)b>=WN8oKTi9%h(nb>>n]8oHj$9%eE.b>@;w8oEkA9%h(nb>@m68oDWV9%nN)b>@;w8oEkA9%ts9b>>n]8oHj$9%wW$b>=WN8oKTi9%ts9b>=EG8oL1?9%nN)b>A>Q8oWXc9%jkBb>AxM8oV/j9%i?[b>Bba8oTS%9%jkBb>C&V8oSrP9%nN)b>Bba8oTS%9%r0eb>AxM8oV/j9%s\Lb>A>Q8oWXc9%r0eb>A*v8oX0M9%nN)b>1jI8mv-i9%nN)b>C.R8oZid9%nN)b>15G8f-h?9%H3Yb>bpj7mH(T9$/X[b>+TP8f+WC9%@aqb>Q,.7j6Cf8xd7>b>95J8naw*9%mWNb>8wE8nfb\9%nN)b>5V@8Yr<@9$hx8b>-7@8Yn-K9$Z)$b>3TU8n6/]9%oqnb>2Et8n:e.9%s46b>,/g8lpoY9%`NFb>*b18m$.c9%e*_
+ nlist 252 1 b85VECTOR
+8?H5Za-*abaIBsj8?H5[a-*acaIBsj8?H5\a-*adaIBsk8?H5\a-*acaIBsjaD]M>aAOrVaKbaPaD]M>aAOrWaKbaPaD]M?aAOrXaKbaQaD]M?aAOrWaKbaPaO]4na?dBCa0_\XaO]4oa?dBDa0_\XaO]4pa?dBEa0_\XaO]4na?dBDa0_\WaO]4oa?dBD8$o,-aO]4oa?dBE8$o,.aO]4na?dBD8$o,-aO]4na?dBC8$o,-aD]HXaAP+98?r.TaD]HXaAP+:8?r.VaD]HYaAP+88?r.UaD]HYaAP+:8?r.U8?H5<a-*aJ8=RCa8?H5=a-*aI8=RCb8?H5=a-*aI8=RCc8?H5=a-*aJ8=RCd8F>^k`Btn$7xQl78F>^k`Btn$7xQl98F>^k`Btn$7xQl78F>^l`Btn&7xQl88F>^t`Btiva/BE*8F>^v`Btixa/BE,8F>^v`Btixa/BE,8F>^u`Btiwa/BE+8<14v7uESjaLKFx8<14t7uESjaLKFw8<14u7uESiaLKFw8<14v7uESlaLKFxaEfxga:h(LaLa$uaEfxha:h(MaLa$uaEfxia:h(MaLa$uaEfxia:h(MaLa$uaNq6vaB=$ca39D=aNq6vaB=$ea39D?aNq6waB=$da39D?aNq6uaB=$da39D>aNq65aB='r8'Hh)aNq64aB='q8'Hh'aNq65aB='r8'Hh'aNq64aB='q8'Hh'aEfxwa:h&\8@pI`aEfxwa:h&[8@pI_aEfxxa:h&\8@pI`aEfxxa:h&\8@pI`8<18x7uEP$8@ZhL8<18x7uEOx8@ZhL8<18w7uEOx8@ZhM8<18x7uEOx8@ZhL8E&m68-%B^8&xFX8E&m58-%B]8&xFW8E&m58-%B]8&xFW8E&m58-%B]8&xFW8E&la8-%E$a2i$;8E&lb8-%Dxa2i$:8E&lc8-%E%a2i$<8E&lb8-%Dxa2i$;89IxI8+^>oaMZZP89IxH8+^>oaMZZP89IxH8+^>naMZZP89IxH8+^>naMZZPaEV-'a56ZhaMY5gaEV-'a56ZhaMY5faEV-'a56ZfaMY5faEV-'a56ZhaMY5gaNx46aA;Tga5w8/aNx45aA;Tga5w80aNx46aA;Tea5w8/aNx45aA;Tfa5w8-aNx30aA;Y68*1[paNx31aA;Y78*1[qaNx31aA;Y58*1[naNx32aA;Y68*1[qaEV,;a56\U8AhZZaEV,;a56\T8AhZZaEV,:a56\S8AhZYaEV,:a56\S8AhZZ89Iwa8+^>u8Aj*J89Iwa8+^>u8Aj*J89Iwa8+^>u8Aj*J89Iwa8+^>u8Aj*J8Cb<?83*MR8*-t%8Cb<@83*MQ8*-t'8Cb<@83*MS8*-t'8Cb<?83*MQ8*-t$8Cb=?83*J&a5sKp8Cb=@83*J'a5sKq8Cb=@83*J'a5sKr8Cb=@83*J(a5sKr89RPf8'%YIaMrcg89RPg8'%YKaMrcj89RPg8'%YIaMrch89RPf8'%YIaMrcgaECdDa6r7maMZ?IaECdDa6r7naMZ?IaECdDa6r7laMZ?IaECdDa6r7maMZ?HaO`]1a>1%]a5o7faO`]1a>1%\a5o7eaO`]1a>1%]a5o7daO`]0a>1%\a5o7eaO`\Ka>1)*8*)[gaO`\Ka>1),8*)[haO`\La>1),8*)[gaO`\La>1),8*)[haEChBa6r2W8AiaiaEChCa6r2X8AiaiaEChBa6r2U8AiahaEChBa6r2W8Aiai89RQ>8'%__8B-2T89RQ>8'%__8B-2U89RQ>8'%__8B-2U89RQ>8'%__8B-2U8CR2T85m8l7vraj8CR2T85m8k7vrak8CR2S85m8j7vrak8CR2U85m8k7vral8CR1t85m;Ba-c<o8CR1v85m;Da-c<q8CR1t85m;Ca-c<p8CR1t85m;Da-c<p87q7$83gT;aLSmj87q6w83gT;aLSmi87q7$83gT<aLSmi87q6w83gT;aLSmiaG*ija4(K7aL]s9aG*ija4(K8aL]s9aG*ija4(K8aL]s9aG*ija4(K8aL]s9aOX4Ca?EC_a35.paOX4Ca?EC`a35.oaOX4Ca?EC`a35.oaOX4Ba?EC_a35.oaOX3na?EF(8'DRraOX3ma?EF(8'DRqaOX3ma?EF(8'DRraOX3na?EF)8'DRsaG*oba4(>i8@m?:aG*oca4(>h8@m?9aG*oca4(>i8@m?8aG*oba4(>i8@m?:87q7g83gPh8@c=v87q7e83gPf8@c=t87q7e83gPh8@c=u87q7f83gPi8@c=u8A/KH8;oOS7h9VW8A/KJ8;oOU7h9VX8A/KI8;oOT7h9VW8A/KI8;oOT7h9VX8A/Hd8;oS)`t*4<8A/Hd8;oS)`t*4<8A/Hd8;oS(`t*4<8A/Hd8;oS)`t*4=8/?J>8>:[vaHw\58/?J?8>:[uaHw\58/?J>8>:[uaHw\38/?J?8>:[uaHw\3aHoHoa,m1laK]UIaHoHoa,m1maK]UIaHoHqa,m1naK]UIaHoHpa,m1laK]UIaNNElaD<hWa0r=IaNNEkaD<hWa0r=GaNNEkaD<hXa0r=IaNNElaD<hXa0r=IaNNEEaD<h,8%,lLaNNEFaD<h,8%,lMaNNEFaD<h,8%,lLaNNEEaD<h,8%,lLaHoIea,le+8?m%taHoIda,le+8?m%saHoIea,le*8?m%saHoIda,le*8?m%s8/?7t8>:b+8=2)a8/?7t8>:b+8=2)a8/?7v8>:b+8=2)b8/?7u8>:b+8=2)a8<;K*8@ehp7l[t18<;K,8@ehq7l[t38<;K+8@ehp7l[t38<;K,8@ehp7l[t38<;N:8@efJ`xLM:8<;N:8@efJ`xLM:8<;N98@efH`xLM78<;N98@efI`xLM88?+lFaFJgaa@:3H8?+lEaFJg`a@:3F8?+lEaFJg_a@:3F`k=@=aNd>2aE,]H`k=@=aNd>3aE,]I`k=@<aNd>3aE,]HaG6s9aLwt\a-4=@aG6s7aLwt]a-4=@aG6s8aLwt]a-4=@aG6fKaLx)^7vCUZaG6fJaLx)\7vCUXaG6fKaLx)]7vCUY`k;'1aNd>^89<-7`k;'3aNd>_89<-9`k;'3aNd>^89<-88?+bUaFJon84Id+8?+bUaFJoo84Id,8?+bUaFJom84Id+8DiBfa<@$e7t0?;8DiBea<@$d7t0?<8DiBea<@$f7t0?<8DiBea<@$da*uog8DiBfa<@$ea*uof8DiBea<@$fa*uog`]PMT8D4f[a@Wnl`]PMU8D4f[a@Wnl`]PMU8D4f[a@WnmaK]Dk84WsIaEABmaK]Dj84WsHaEABlaK]Dk84WsIaEABmaR21-`lt<da-\bVaR21-`lt<ea-\bWaR21.`lt<ea-\bWaR21%`lt<_7vl4KaR21%`lt<^7vl4JaR21%`lt<^7vl4KaK]N\84W*x89PvMaK]N[84W*x89PvMaK]N[84W*v89PvL`]LJL8D4fo84g>R`]LJM8D4fo84g>S`]LJL8D4fn84g>R8.]$j8E8m'7nj>-8.]$l8E8m(7nj>/8.]$k8E8m'7nj>-8.]$k8E8m(a%ZnY8.]$k8E8m(a%ZnY8.]$l8E8m(a%ZnX89EY&a*4t.8BZ9r8<`Hfa3_gJ8?be^8<bb:a44M>8?]aZ8:)Z]a*DS48B640aI(0ja7(8X8?%:uaI(0ja7(8W8?%:uaH<v0a<5-S8>ZpYaHIUfa;=X_8>aa18<r)Za7KW*8?8@r8<r)Ya7KW*8?8@r8$@7\a(F2g8F*]h6[X$@a0M6x8F:<)
+ uvlist 91 1 b85VECTOR2
+z!7reTb$$$$'8+HY87reTb82:0x7reTb89+]c7reTb8<Nt.7reTb8?r5N7reTb8C@Kn7reTby7reTbz8+HY87reTb!8+HY8$$$$'82:0x8+HY889+]c8+HY88<Nt.8+HY88?r5N8+HY88C@Kn8+HY8y8+HY8z82:0x7reTb82:0x8+HY8!82:0x$$$$'89+]c82:0x8<Nt.82:0x8?r5N82:0x8C@Kn82:0xy82:0xz89+]c7reTb89+]c8+HY889+]c82:0x!89+]c$$$$'8<Nt.89+]c8?r5N89+]c8C@Kn89+]cy89+]cz8<Nt.7reTb8<Nt.8+HY88<Nt.82:0x8<Nt.89+]c!8<Nt.$$$$'8?r5N8<Nt.8C@Kn8<Nt.y8<Nt.z8?r5N7reTb8?r5N8+HY88?r5N82:0x8?r5N89+]c8?r5N8<Nt.!8?r5N$$$$'8C@Kn8?r5Ny8?r5Nz8C@Kn7reTb8C@Kn8+HY88C@Kn82:0x8C@Kn89+]c8C@Kn8<Nt.8C@Kn8?r5N!8C@Kn$$$$'y8C@Kn7e-P7z8$W,Mz8.koXz85]GCz8:ghsz8>6*>z8AY@^z8E'W)z7e-P7y8$W,My8.koXy85]GCy8:ghsy8>6*>y8AY@^y8E'W)y89+]cz8?r5Nz8?r5N8(EX889+]c8(EX88+HY88(EX88+HY8z8-\rkz8-\rk8(EX7yzy8(EX881,ETz81,ET8(EX8
+ smoothing on
+ step_size 0
+ volume_padding 0
+ declare maya_full_name constant STRING
+ maya_full_name "|group6|pSphere3|pSphere3Shape"
+}
+
+polymesh
+{
+ name pPlaneShape34
+ visibility 255
+ sidedness 255
+ matrix
+ 0.590388656 -0.787964761 -0.174793303 0
+ 0.562195063 0.24608551 0.789543331 0
+ -0.0961476341 -0.0937049463 0.0976680517 0
+ -45.1624527 3.56012416 0.783782423 1
+ shader "aiStandardSurface5"
+ id 748427989
+ nsides 4 1 UINT
+4 4 4 4
+ vidxs 16 1 b85UINT
+B$v`&4%=8A:%<D`6%Whu<
+ nidxs 16 1 b85UINT
+B$v2N*&9nA:&9\)2&pa_@
+ uvidxs 16 1 b85UINT
+B$v`&4%=8A:%<D`6%Whu<
+ vlist 10 1 b85VECTOR
+ab./uaaF\&8+$sB8C%/ma,03(8=j_@8ca@xY4`U*yab./uaaF\&a6jNm8C%/ma,03(aI[:k8ca@x0'Uq_aRT=daR^R]aS<cN82;.5aR^R]aS<cNa>+^`8W.FC7_$r^8E'hk8W.FC7_$r^aPmDA
+ nlist 10 1 b85VECTOR
+aI@9j8?q5[zaE*RU8Bx>&zaE*RU8Bx>&zaI@9j8?q5[za7d,p8EiANz`aiV28Fb`jz`aiV28Fb`jza7d,p8EiANz7PKEK8Fc,nz7PKEK8Fc,nz
+ uvlist 10 1 b85VECTOR2
+zz89+]czyzz8(EX889+]c8(EX8y8(EX88+HY8z8+HY88(EX88?r5Nz8?r5N8(EX8
+ smoothing on
+ step_size 0
+ volume_padding 0
+ declare maya_full_name constant STRING
+ maya_full_name "|group6|pPlane34|pPlaneShape34"
+}
+
+standard_surface
+{
+ name aiStandardSurface5
+ base_color file4
+ specular_roughness 0.636363626
+}
+
+image
+{
+ name file4
+ filename ""
+ color_space ""
+ filter "smart_bicubic"
+ swrap "periodic"
+ twrap "periodic"
+ sscale 1
+ tscale 1
+ soffset 0
+ toffset 0
+ uvset ""
+ offset aiColorJitter4
+ ignore_missing_textures on
+ missing_texture_color 0.112519212 0.165000007 0.0359700024 0
+}
+
+color_jitter
+{
+ name aiColorJitter4
+ input 0.0978890136 0.165000007 0
+ obj_gain_min 0.296296299
+ obj_gain_max 0.148148149
+ obj_hue_min 0.0814814791
+ obj_hue_max -0.00740740821
+ obj_saturation_min -0.300000012
+ obj_saturation_max 0.100000001
+}
+
+persp_camera
+{
+ name perspShape
+ matrix
+ 0.999262929 0 -0.0383878089 0
+ -0.0281382017 0.680230379 -0.732458115 0
+ 0.0261125527 0.732998371 0.679728985 0
+ -8.55363178 74.6463318 59.284668 1
+ near_clip 0.100000001
+ far_clip 10000
+ screen_window_min -1 -1
+ screen_window_max 1 1
+ shutter_start 0
+ shutter_end 0
+ shutter_type "box"
+ rolling_shutter "off"
+ rolling_shutter_duration 0
+ motion_start 0
+ motion_end 0
+ exposure 0
+ fov 54.4322243
+ declare maya_full_name constant STRING
+ maya_full_name "|persp|perspShape"
+}
+

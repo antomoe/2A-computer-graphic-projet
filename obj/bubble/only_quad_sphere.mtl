@@ -1,0 +1,24 @@
+# Blender MTL File: 'only_quad_sphere.blend'
+# Material Count: 2
+
+newmtl Material
+Ns 96.078431
+Ka 1.0000 1.0000 1.0000
+Kd 0.5020 0.5020 0.5020
+Ks 1.0000 1.0000 1.0000
+Ni 1.000000
+d 1.000000
+illum 1
+map_Kd ./white.png
+map_Bump ./white.png
+
+newmtl Material.001
+Ns 96.078431
+Ka 1.0000 1.0000 1.0000
+Kd 0.5020 0.5020 0.5020
+Ks 1.0000 1.0000 1.0000
+Ni 1.000000
+d 1.000000
+illum 0
+map_Kd ./white.png
+map_Bump ./white.png
